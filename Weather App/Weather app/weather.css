@@ -1,0 +1,26 @@
+#weathers {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #ccd5ae;
+    border: solid #d4a373;
+}
+
+#vanpic {
+    border-radius: 8px;
+    width: 250px;
+    height: fit-content;
+}
+
+#ottapic {
+    border-radius: 8px;
+    width: 300px;
+    height: fit-content;
+}
+
+body {
+    background-color: #fefae0;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+}

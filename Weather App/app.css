@@ -1,0 +1,36 @@
+body {
+    background-color: #edf6f9;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#first {
+    border: solid 1px black;
+    background-color: #ffddd2;
+    padding: 5px;
+}
+
+#second {
+    border: solid 1px black;
+    background-color: #83c5be;
+    padding: 5px;
+}
+
+#ottapic {
+    height: 200px;
+}
+
+#ottapic2 {
+    height: 200px;
+}
+
+@media (max-width: 800px){
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+  
