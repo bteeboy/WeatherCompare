@@ -9,12 +9,18 @@ body {
     border: solid 1px black;
     background-color: #ffddd2;
     padding: 5px;
+    margin: 10px 10px;
+    width: 80%;
+    text-align: center;
 }
 
 #second {
     border: solid 1px black;
     background-color: #83c5be;
     padding: 5px;
+    margin: 10px 10px;
+    width: 80%;
+    text-align: center;
 }
 
 #ottapic {
