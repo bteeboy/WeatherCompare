@@ -25,10 +25,12 @@ body {
 
 #ottapic {
     height: 200px;
+    width: 80%;
 }
 
 #ottapic2 {
     height: 200px;
+    width: 80%;
 }
 
 @media (max-width: 800px){
