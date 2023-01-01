@@ -4,6 +4,7 @@ body {
     gap: 5px;
     grid-template-columns: 1fr 1fr;
     background-image: url("cloudy.jpg");
+    /* align-items: center; */
 }
 
 #cityselect {
@@ -99,21 +100,23 @@ h3 {
 #first {
     border: solid 3px black;
     border-radius: 8px;
-    background-color: #ffddd2;
+    background-color: rgba(255, 221, 210, 0.6);
     padding: 5px;
     margin: 10px 10px;
     width: 80%;
     text-align: center;
-}
+    justify-self: center;
+    }
 
 #second {
     border: solid 3px black;
     border-radius: 8px;
-    background-color: #83c5be;
+    background-color: rgba(131, 197, 190, 0.6);
     padding: 5px;
     margin: 10px 10px;
     width: 80%;
     text-align: center;
+    justify-self: center;
 }
 
 #ottapic {
