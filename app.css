@@ -3,7 +3,90 @@ body {
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 1fr;
+    background-image: url("cloudy.jpg");
 }
+
+#cityselect {
+    background-color: #ffddd2;
+    width: 100px;
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#cityselect:hover,
+#cityselect:active {
+    background-color: #fff; color: #000; 
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#compareButton {
+    background-color: #ffddd2;
+    width: 100px;
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#compareButton:hover,
+#compareButton:active {
+    background-color: #fff; color: #000; 
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#cityselect2 {
+    background-color: #83c5be;
+    width: 100px;
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#cityselect2:hover,
+#cityselect2:active {
+    background-color: #fff; color: #000; 
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#compareButton2 {
+    background-color: #83c5be;
+    width: 100px;
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#compareButton2:hover,
+#compareButton2:active {
+    background-color: #fff; color: #000; 
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+/* .ghost-button-transition { display: inline-block; width: 200px; padding: 8px; color: #fff; 
+    border: 2px solid #fff; text-align: center; outline: none; text-decoration: none;  
+    transition: background-color 0.2s ease-out, color 0.2s ease-out; } .ghost-button-transition:hover,
+     .ghost-button-transition:active { background-color: #fff; color: #000; 
+    transition: background-color 0.3s ease-in, color 0.3s ease-in; } */
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -14,7 +97,8 @@ h3 {
 }
 
 #first {
-    border: solid 1px black;
+    border: solid 3px black;
+    border-radius: 8px;
     background-color: #ffddd2;
     padding: 5px;
     margin: 10px 10px;
@@ -23,7 +107,8 @@ h3 {
 }
 
 #second {
-    border: solid 1px black;
+    border: solid 3px black;
+    border-radius: 8px;
     background-color: #83c5be;
     padding: 5px;
     margin: 10px 10px;
@@ -35,11 +120,13 @@ h3 {
     height: 200px;
     width: 80%;
     max-width: 80%;
+    border-radius: 8px;
 }
 
 #ottapic2 {
     height: 200px;
     width: 80%;
+    border-radius: 8px;
 }
 @media (max-width: 800px){
     body {
